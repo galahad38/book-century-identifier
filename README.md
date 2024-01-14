@@ -1,7 +1,31 @@
-<div align="center">
-                <font color="#21618C" size=25px>
-                    <b> Book Century Identifier - Model Building<br>
-                    </b>
-                </font>
-</div>
-A classification model that predicts the century in which a book was written using Bag-of-words algorithm (Natural Language Processing)
+## Book Century Identifier
+
+#### What it does:
+A classification model that predicts the century in which a book was written using Bag-of-Words algorithm (Natural Language Processing)
+
+### How to build it yourself:
+
+1. Install [Python](https://www.python.org/downloads/):
+2. Install non-standard Python libraries:
+     launch command prompt and run this command:
+     ```console
+     C:\Windows\system32\ pip install ipykernal, jupyterlab, notebook, numpy, pandas, scikit-learn
+     ```
+3. Download the [dataset](https://github.com/galahad38/book-century-identifier/blob/main/books_db.csv) and [Jupyter Notebook](https://github.com/galahad38/book-century-identifier/blob/main/building-the-naive-bayes-model.ipynb). Ensure that they are in the same folder.
+4. Launch Jupyter Notebook from the Start Menu, and navigate to the folder containing the dataset and Jupyter Notebook you just downloaded.
+5. Go to Cell -> Run All.
+6. Profit!
+
+### How to interpret it:
+The final score.mean() tells you how good of a model it is. The closer this value is 1, the better the predictive power of the model.
+In other words, the closer the value is to 1, the more accurately the model is able to predict the Century in which the text was written, based on the grammatical structure, vocabulary, and grammar.
+
+### My instance and the insights derived:
+I got a Weighted F1 Score of 81.6%. This is not bad, but also I would like to get this number to be as high as I can, so there is definitely scope for improvement.
+
+### Future Scope:
+I am satisfied with the outcome of this project. However it is simplistic and undoubtedly a prototype with huge scope for improvement.
+First things first, I can more programmatically source my data, say by downloading all of the books available on [Project Gutenberg](https://www.gutenberg.org/).
+Second, I can clean the data a bit better, and perform Feature Selection in order to remove words without dictionary meaning.
+Thirdly, when creating the Document-Term Matrix, I can also incorporate N-Grams as features.
+Lastly, I can implement a way for the user to input some text data and obtain a predicted Century value, making it actually usable and not just an object of curiosity.
