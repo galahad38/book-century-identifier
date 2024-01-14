@@ -24,8 +24,8 @@ In other words, the closer the value is to 1, the more accurately the model is a
 I got a Weighted F1 Score of 81.6%. This is not bad, but also I would like to get this number to be as high as I can, so there is definitely scope for improvement.
 
 ### Future Scope:
-I am satisfied with the outcome of this project. However it is simplistic and undoubtedly a prototype with huge scope for improvement.
-First things first, I can more programmatically source my data, say by downloading all of the books available on [Project Gutenberg](https://www.gutenberg.org/).
-Second, I can clean the data a bit better, and perform Feature Selection in order to remove words without dictionary meaning.
-Thirdly, when creating the Document-Term Matrix, I can also incorporate N-Grams as features.
-Lastly, I can implement a way for the user to input some text data and obtain a predicted Century value, making it actually usable and not just an object of curiosity.
+I am satisfied with the outcome of this project. However it is simplistic and undoubtedly a prototype with huge scope for improvement:
+1) I can more programmatically source my data, say by downloading all of the books available on [Project Gutenberg](https://www.gutenberg.org/).
+2) I can clean the data a bit better, and perform Feature Selection in order to remove words without dictionary meaning.
+3) When creating the Document-Term Matrix, I can also incorporate N-Grams as features.
+4) I can implement a way for the user to input some text data and obtain a predicted Century value, making it actually usable and not just an object of curiosity.
