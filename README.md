@@ -17,7 +17,7 @@ A classification model that predicts the century in which a book was written usi
 6. Profit!
 
 ### How to interpret it:
-The final score.mean() tells you how good of a model it is. The closer this value is 1, the better the predictive power of the model.
+The final score.mean() tells you how good of a model it is. The closer this value is to 1, the better the predictive power of the model.
 In other words, the closer the value is to 1, the more accurately the model is able to predict the Century in which the text was written, based on the grammatical structure, vocabulary, and grammar.
 
 ### My instance and the insights derived:
