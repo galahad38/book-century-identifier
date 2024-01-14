@@ -22,7 +22,7 @@ This project was built to test my understanding of the Natural Language Processi
 
 ## How to interpret it:
 The final score.mean() tells you how good of a model it is. The closer this value is to 1, the better the predictive power of the model.
-In other words, the closer the value is to 1, the more accurately the model is able to predict the Century in which the text was written, based on the grammatical structure, vocabulary, and grammar.
+In other words, the closer the value is to 1, the more accurately the model is able to predict the Century in which the text was written, based on the sentence structure, vocabulary, and grammar.
 
 ## My instance and the insights derived:
 I got a Weighted F1 Score of 81.6%. This is not bad, but also I would like to get this number to be as high as I can, so there is definitely scope for improvement.
