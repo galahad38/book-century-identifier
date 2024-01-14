@@ -1,5 +1,5 @@
 <div align="center">
-                <font color="#21618C" size=5px>
+                <font color="#21618C" size=25px>
                     <b> Book Century Identifier - Model Building<br>
                     </b>
                 </font>
