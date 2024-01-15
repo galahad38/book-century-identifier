@@ -1,7 +1,7 @@
 # Book Century Identifier
 
 ## What it does:
-A classification model that predicts the century in which a book was written using Bag-of-Words algorithm (Natural Language Processing)
+A classification model that predicts the century in which a book was written using Bag-of-Words model (Natural Language Processing)
 
 Sometimes GitHub is unable to Preview Code Blocks for Jupyter Notebooks. If this happens, you can just view my [Notebook](https://nbviewer.org/github/galahad38/book-century-identifier/blob/main/building-the-naive-bayes-model.ipynb).
 
